@@ -1,0 +1,38 @@
+@import '../../assets/css/variable';
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.header-dropdown-link-container {
+  border-radius: $borderRadius;
+}
+
+.header-dropdown-container {
+  background-color: #fff;
+  border-radius: $borderRadius;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  max-width: 250px;
+  padding: 8px !important;
+}
+
+.ant-dropdown-menu {
+  box-shadow: none !important;
+}
+.textCapitalaze {
+  text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+@import '../../assets/css/variable';
+.loginWrapper {
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginCard {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum', 'tnum';
+  position: relative;
+  background: #fff;
+  border-radius: $borderRadius;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .companyLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      border: 1px solid #ddd;
+    }
+  }
+  .loginCardBody {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
