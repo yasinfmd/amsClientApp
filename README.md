@@ -3,7 +3,7 @@
 ## `npm install`
 diyerek bağımlılıkların yüklenmesi
 
-## `npm start / npm start android or ios`
+## `npm start`
 diyerek projenin ayağa kaldırılması
 
 ## Katmanlar
